@@ -1,0 +1,57 @@
+body {
+  /* padding: 5vh 25vh; */
+  padding: 15% 10% 0 10%;
+  text-align: center;
+  background-color: #282828;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#title {
+  font-size: 50px;
+  color: #bfbfbf;
+}
+
+#instruction {
+  font-size: 30px;
+  color: #bfbfbf;
+  margin-bottom: 7%;
+}
+
+#prompt {
+  font-size: 40px;
+  padding: 4%;
+  width: 50%;
+  border: none;
+  background-color: #bfbfbf;
+  font-weight: bolder;
+}
+
+#submit {
+  font-size: 40px;
+  background-color: #8b008b;
+  display: block;
+  padding: 2% 3%;
+  margin: 5% auto;
+  border: none;
+}
+
+#image {
+  display: none;
+  width: 256px;
+  height: 256px;
+  border: 10px solid black;
+  border-radius: 25%;
+}
+
+#thought {
+  font-size: 20px;
+}
+
+hr {
+  border: 0.5px solid grey;
+}
+
+#name {
+  color: #8b008b;
+}
